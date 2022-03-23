@@ -28,3 +28,17 @@ h3{
     font-family: 'Roboto Condensed', sans-serif;
     color: rgb(59, 57, 57);
 }
+
+.nav-link{
+    text-decoration: none;
+    color: rgb(88, 67, 8);
+    width:max-content;
+    margin: 0.5rem;
+
+}
+
+.nav-link:hover{
+    text-decoration: none;
+    color: rgb(180, 137, 17);
+
+}
