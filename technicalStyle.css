@@ -29,6 +29,36 @@ h3{
     color: rgb(59, 57, 57);
 }
 
+@media screen and (max-width: 600px) {
+    #navbar{
+        width: 100%;
+        justify-content: space-between;
+        background-color: rgb(133, 123, 112);
+        padding-bottom: 1rem;
+        padding-top: 0.2rem;
+        border-radius: 0.5rem;
+
+    }
+
+    #nav-header{
+        text-align: center;
+    }
+    .nav-link{
+        text-decoration: none;
+        color: rgb(88, 67, 8);
+        width:max-content;
+        margin: 0.5rem;
+        font-size: 0.7rem;
+    
+    }
+    #nav-items{
+        width: max-content;
+        margin: auto;
+    }
+    
+}
+
+
 .nav-link{
     text-decoration: none;
     color: rgb(88, 67, 8);
